@@ -10,7 +10,7 @@ pipeline {
 
     stage('Get from git project') {
       steps {
-        git 'https://github.com/GsorinDev/labJUnit.git'
+        git 'https://github.com/GsorinDev/ams-test.git'
       }
     }
     stage('Install package') {
